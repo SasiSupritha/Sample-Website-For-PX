@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div class="box1">
+        <div class="box2">
+            <img class="img-center" src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/80792/gspx-logo.png">
+        </div>
+        <p class="intro"> <i>Welcome to Gainsight PX training</i></p>
+        <nav class="menu">
+          <a href="page1.html">Products</a> &nbsp;&nbsp;&nbsp;
+          <a href="About.html">About Us</a> &nbsp;&nbsp;&nbsp;
+          <a href="Widget.html">Widget</a> &nbsp;&nbsp;&nbsp;
+          <a href="Contact.html">Contact</a> &nbsp;&nbsp;&nbsp;
+          <a href="home.html">Logout</a> &nbsp;&nbsp;&nbsp; 
+      </nav>
+        <header class="header">Widgets</header>
+        <div class="dragred" class="ui-widget-content">
+          <p>Drag Block 1</p>
+        </div>
+        <div class="dragblue" class="ui-widget-content">
+          <p>Drag Block 2</p>
+        </div>
+        <div class="draggreen" class="ui-widget-content">
+          <p>Drag Block 3</p>
+        </div>
+        <footer>
+          &copy; Sample PX Web App &nbsp; | &nbsp; Designed by Sasi &nbsp; | &nbsp; <a href="https://www.gainsight.com/">Works at Gainsight</a>
+      </footer>
+    </div>
+    <script>
+      $( function() {
+          $( ".dragred").draggable({
+              stop : function r() {aptrinsic('track','dragevent',{"name":"red drag", "color" : 'red'});}
+              
+          })
+        } );
+  
+        $( function() {
+          $( ".dragblue").draggable({
+              stop : function r() {aptrinsic('track','dragevent',{"name":"blue drag", "color" : 'blue'});}
+              
+          })
+        } );
+  
+        $( function() {
+          $( ".draggreen").draggable({
+              stop : function r() {aptrinsic('track','dragevent',{"name":"green drag", "color" : 'green'});}
+              
+          })
+        } );
+      </script>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+footer {
+    background: rgb(7, 245, 237);
+    text-align: center;
+}
+
+.box1 {
+    /* border: 2px solid blue; */
+    /* height: 50vh; */
+    width:80vh;
+    margin: auto;
+    padding:2px;
+    background-color: rgba(220, 245, 236, 0.754);
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.intro {
+    text-align: center;
+}
+
+.box3 {
+    /* border: 2px solid blue;  */
+    height: 30vh;
+    width:70vh;
+    margin: 65px 40px 40px 20px;
+    padding: 20px;
+}
+.text{
+    margin: 20px;
+    font-weight: bold;
+}
+.button {
+    color: white;
+    background-color: #f3a109;
+    width: 100px;
+    height: 29px;
+    border-radius: 20px;
+}
+.login-button{
+    color: white;
+    background-color: #0c5deb;
+    width: 130px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    
+}
+
+.menu{
+    background: #03c8f4;
+    padding: 5px 0 5px 40px;
+    border-radius: 5px;
+}
+
+.menu a{
+    /* color : #f6f7f8; */
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.menu a:hover{
+    color: #333430;
+}
+.header{
+    padding: 15px 0 15px 40px;
+    font-size: 20px;
+    border: 2px solid rgb(8, 132, 240);
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    border-radius: 5px;
+    background: rgb(235, 70, 155);
+}
+
+.dragred
+{
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    color: white;
+    margin-left:100px;
+    background-color: rgb(240, 83, 10);
+}
+
+.dragblue
+{
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    color: white;
+    margin-left:100px;
+    background-color: rgb(100, 8, 239);
+}
+.draggreen
+{
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    color: white;
+    margin-left:100px;
+    background-color: rgb(142, 231, 34);
+}
+form{
+    width: 500px;
+    padding: 10px 10px 0px 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+input {
+    width: 95%;
+    border-radius: 5px;
+    height: 20px;
+    background: #f3ebeb;
+
+}
+#message {
+    width: 95%;
+    border-radius: 5px;
+    background: #f3ebeb;
+}
+#submit {
+    height: 30px;
+    background: rgb(59, 118, 135);
+    color: white;
+    font-size: 12px;
+}
